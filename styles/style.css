@@ -338,5 +338,5 @@ ol {
 }
 
 .content__card-link:focus {
-  outline: none;
+  outline: none; 
 }

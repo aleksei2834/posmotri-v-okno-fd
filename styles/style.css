@@ -206,6 +206,7 @@ ol {
   font-size: 75px;
   line-height: 70.5px;
   text-transform: uppercase;
+  align-self: start;
 }
 
 .content__accent {
@@ -243,6 +244,7 @@ ol {
 }
 
 .content__video-card-description-container {
+  max-width: 196px;
   flex-grow: 1;
   overflow: hidden;
   white-space: wrap;
@@ -267,7 +269,6 @@ ol {
   font-size: 18px;
   font-weight: 400;
   padding-top: 4px;
-  max-width: 196px;
   line-height: 0.9;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -333,10 +334,10 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link:focus-visible + .content__video-card {
+.content__card-link:focus-visible .content__video-card {
   outline: 1px solid #fff;
 }
 
-.content__card-link:focus {
-  outline: none; 
+.content__details {
+  align-self: start;
 }

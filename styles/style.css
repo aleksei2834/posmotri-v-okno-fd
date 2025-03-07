@@ -81,6 +81,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 17px;
+  margin-top: 74px;
 }
 
 .result__video-container {
@@ -183,6 +184,10 @@ ol {
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.search-form__label:hover {
   cursor: pointer;
 }
 
